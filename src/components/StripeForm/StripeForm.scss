@@ -1,0 +1,42 @@
+.input{
+  width: 100%;
+  border: 1px solid var(--lighter);
+  height: 3.2rem;
+  border-radius: 5px;
+  margin-top: 8px;
+  padding-top: 14px;
+  padding-left: 10px;
+}
+
+label{
+  text-transform: uppercase;
+  color: var(--light);
+  font-size: 0.8rem;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+}
+
+.stripe-top{
+  display: flex;
+  justify-content: space-between;
+  .card-num{
+    width: 100%;
+  }
+  // .input-wrapper{
+  //   width: 100%;
+  // }
+}
+.stripe-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  .card-name{
+    width: 50%
+  }
+  .card-exp{
+    width: 23%;
+  }
+  .card-cvc{
+    width: 23%;
+  }
+}

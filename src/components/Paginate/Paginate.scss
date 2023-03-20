@@ -1,0 +1,25 @@
+.pages-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  ul{
+    display: flex;
+    li{
+      width: 2.3rem;
+      height: 2.3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      color: var(--light);
+      font-weight: 600;
+      // border: 1px solid red;
+      
+    }
+    .active-page{
+      background-color: var(--primary);
+      color: white;
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.booking-container{
+  width: 95%;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .booking-section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding-bottom: 5rem;
+    .booking-wrapper{
+      width: 80%;
+      .partner-step{
+        display: flex;
+        justify-content: space-between;
+        .signin-logo{
+          // width: 40%;
+          display: flex;
+          align-items: center;
+          // padding-bottom: 1rem;
+          h3{
+            font-size: 1.8rem;
+            color: var(--darker);
+            padding-left: 0.5rem;
+            letter-spacing: -1px;
+          }
+          svg{
+            width: 32px;
+            height: 32px;
+            stroke: var(--darker);
+          }
+        }
+        .step-indicator{
+          width: 55%;
+        }
+      }
+      .border{
+        padding-top: 2rem;
+        width: 100%;
+        display: flex;
+        .border-left{
+          height: 2px;
+          width: 40%;
+          background-color: var(--primary);
+        }
+        .border-right{
+          height: 2px;
+          width: 60%;
+          background-color: var(--lighter);
+        }
+      }
+    }
+    .partner-nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 2.5rem;
+    }
+    .nav-buttons{
+      display: flex;
+      // justify-content: flex-end;
+      :first-child{
+        background: none;
+      }
+      :last-child{
+        background-color: var(--primary-bg);
+      }
+    }
+    button{
+      width: 10rem;
+      height: 4rem;
+      
+      border: none;
+      border-radius: 50px;
+      color: var(--primary);
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-left: 2rem;
+      
+    }
+  }
+  .booking-widget{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}

@@ -1,0 +1,32 @@
+.steps-container{
+  width: 100%;
+  // border: 1px solid red;
+  .steps-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    .steps-item{
+      // width: 33%;
+      // border: 1px solid blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p:first-child{
+        height: 2.1rem;
+        width: 2.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background-color: var(--primary-bg);
+        color: var(--primary);
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+      p:last-child{
+        // color: red;
+        padding-left: 0.8rem;
+      }
+    }
+  }
+}

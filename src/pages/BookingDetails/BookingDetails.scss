@@ -1,0 +1,33 @@
+.booking-details{
+  .input-wrapper{
+    width: 50%;
+  }
+  .details-header{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    h1{
+      font-size: 2.5rem;
+      font-weight: 700;
+      padding-bottom: 0.8rem;
+    }
+    p{
+      color: var(--light)
+    }
+    span{
+      color: var(--primary);
+    }
+  }
+  .input-wrapper{
+    width: 48.2%;
+  }
+  .details-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .details-bottom{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+  }
+}

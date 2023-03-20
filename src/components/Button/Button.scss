@@ -1,0 +1,26 @@
+.button-container{
+  width: 6.3vw;
+  height: 5.1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--primary);
+  border-radius: 10px;
+  .button-wrapper{
+    display: flex;
+    position: absolute;
+    color: white;
+    svg{
+      align-self: center;
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+    p{
+      font-size: 0.9rem;
+      align-self: center;
+      padding-left: 0.3vw;
+    }
+  }
+}

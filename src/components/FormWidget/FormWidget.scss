@@ -1,0 +1,101 @@
+.form-widget{
+  width: 100%;
+  border: 1px solid var(--lighter);
+  border-radius: 30px;
+  padding: 50px 35px 50px 35px;
+  h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: var(--darker);
+  }
+  .checkout-space{
+    padding-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    img{
+      width: 20%;
+      border-radius: 7px;
+    }
+    .space-details{
+      // width: 80%;
+      padding-left: 1rem;
+      .space-features{
+        display: flex;
+        align-items: center;
+        padding-top: 7px;
+        color: var(--primary);
+      }
+      // :not(:first-child){
+      //   margin-top: 9px;
+      //   font-size: 0.9rem;
+      // }
+      h4{
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+    }
+    
+  }
+  .checkout-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    input{
+      height: 3rem;
+      width: 47.5%;
+      background-color: var(--lightest);
+      border-radius: 6px;
+      border: none;
+
+    }
+  }
+  .checkout-costs{
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .costs-item{
+      display: flex;
+      justify-content: space-between;
+      &:last-child{
+        padding-top: 1rem;
+        font-weight: 600;
+      }
+    }
+    
+  }
+  .checkout-buttons{
+    padding-top: 1.8rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    input{
+      border: 1px solid var(--lighter);
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-indent: 1rem;
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+    input::placeholder{
+      font-family: "Inter", sans-serif;
+      color: var(--light);
+    }
+    button{
+      position: absolute;
+      right: 1rem;
+      vertical-align: middle;
+      background: none;
+      border: none;
+      color: var(--primary);
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+  
+}

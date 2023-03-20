@@ -1,0 +1,32 @@
+.checkbox-wrapper{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  label{
+    padding-left: 0.7rem;
+    font-size: 1.05rem;
+  }
+  input[type=checkbox] {
+    height: 1.8rem;
+    width: 1.8rem;
+    appearance: none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -o-appearance:none;
+    border: 1px solid var(--lighter);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input.checked{
+    background-color: var(--primary);
+  }
+  input.checked::before {
+    content: "\2713";
+    font-size: 1.3em;
+    color: #fff;
+    position: absolute;
+    left: 11.8%;
+    // right: 1px;
+    // top: -5px;
+  }
+}

@@ -1,0 +1,15 @@
+.radio-button-outer{
+  width: 19px;
+  height: 19px;
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .radio-button-inner{
+    width: 9px;
+    height: 9px;
+    background-color: var(--primary);
+    border-radius: 20px;
+  }
+}

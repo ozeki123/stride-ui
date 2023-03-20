@@ -1,0 +1,163 @@
+.partner-container{
+  width: 95%;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .banner-section{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .banner-image{
+      width: 94%;
+      height: 95%;
+      background-image: url("../../assets/images/partner-image.png");
+      background-size: cover;
+      background-position: center;
+      // border-top-left-radius: 30px;
+      // border-top-right-radius: 30px;
+      // border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      position: relative;
+      .banner-logo{
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+      }
+      svg{
+        width: 80px;
+        height: 80px;
+        color: white;
+      }
+    }
+  }
+  .partner-section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    .signin-wrapper{
+      width: 80%;
+      // border: 1px solid blue;
+      .signin-logo{
+        // width: 40%;
+        display: flex;
+        align-items: center;
+        // padding-bottom: 1rem;
+        h3{
+          font-size: 1.8rem;
+          color: var(--darker);
+          padding-left: 0.5rem;
+          letter-spacing: -1px;
+        }
+        svg{
+          width: 32px;
+          height: 32px;
+          stroke: var(--darker);
+        }
+      }
+      .partner-step{
+        display: flex;
+        justify-content: space-between;
+        .step-indicator{
+          width: 55%;
+        }
+      }
+      .border{
+        padding-top: 2rem;
+        width: 100%;
+        display: flex;
+        .border-left{
+          height: 2px;
+          width: 40%;
+          background-color: var(--primary);
+        }
+        .border-right{
+          height: 2px;
+          width: 60%;
+          background-color: var(--lighter);
+        }
+      }
+      .signin-header{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        h1{
+          font-size: 2.5rem;
+          font-weight: 700;
+          padding-bottom: 0.8rem;
+        }
+        p{
+          color: var(--light)
+        }
+        span{
+          color: var(--primary);
+        }
+      }
+      .partner-top,
+      .partner-bottom{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      input::placeholder{
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+        text-indent: 1rem;
+        position: absolute;
+        bottom: 1.2rem;
+        color: var(--light)
+      }
+      .signin-input{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2.5rem;
+        position: relative;
+        text-indent: 1rem;
+        label{
+          position: absolute;
+          top: 0.8rem;
+        }
+        
+        p{
+          padding-top: 0.8rem;
+          color: var(--primary);
+        }
+      }
+      .partner-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-buttons{
+        display: flex;
+        // justify-content: flex-end;
+        :first-child{
+          background: none;
+        }
+        :last-child{
+          background-color: var(--primary-bg);
+        }
+      }
+      button{
+        width: 10rem;
+        height: 4rem;
+        
+        border: none;
+        border-radius: 50px;
+        color: var(--primary);
+        font-size: 1.05rem;
+        font-weight: 600;
+        margin-left: 2rem;
+        
+      }
+    }
+  }
+}

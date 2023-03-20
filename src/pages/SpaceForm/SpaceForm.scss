@@ -1,0 +1,62 @@
+.space-form{
+  width: 100%;
+  height: 100%;
+  .partner-top,
+.space-bottom{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-bottom{
+  .address-input{
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    position: relative;
+    text-indent: 1rem;
+    label{
+      position: absolute;
+      top: 0.8rem;
+    }
+    
+    p{
+      padding-top: 0.8rem;
+      color: var(--primary);
+    }
+  }
+  .price-input{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    position: relative;
+    text-indent: 1rem;
+    label{
+      position: absolute;
+      top: 0.8rem;
+    }
+    
+    p{
+      padding-top: 0.8rem;
+      color: var(--primary);
+    }
+  
+}
+}
+
+
+label{
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  color: var(--darker);
+}
+input{
+  border: 1px solid var(--lighter);
+  border-radius: 13px;
+  height: 5rem;
+  
+}
+}
+
